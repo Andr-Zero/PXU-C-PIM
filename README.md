@@ -14,16 +14,16 @@ This is based off the [SparkFun USB-C Power Delivery Board](https://github.com/s
 - Install instruction
 - Upload Arduino code for programming
 - Upload board and design files
-- Explain header and LEDs
+- Explain header, programming, and LEDs
 
 ##### FAQ
 - What chargers work?  
   I dont have a definitive list. Any 100w charger *should* work. I tested with an Anker 100w I got off Amazon and have had no issues.
 - Does it have to be a 100w charger?  
-   YES! There's a lot of 65w chargers out there and they simply not enough to power a stock console.
-- I'm using a 100w charger but nothing is working.  
-   The charger has to be able to negotiate with the PIM saying it can do 95w-100w at 20v, otherwise the PIM refuses to pass power to the PXU.
+   At a minimum, YES! There's a lot of 65w chargers out there and they simply not enough to power a *stock* console.
+- I'm plugging in my charger but nothing is working.  
+   The charger has to be able to negotiate with the PIM saying it can do ~100w at 20v, otherwise the PIM refuses to pass power.
 - My USB charger is warm when running the console, is that normal?  
-   Depends on the charger, mine does and with anything I use it with.
-- My USB-C Cable melted down!  
+   Depends on the charger, mine does and with anything I use it with. Apperently the GaN chargers run cooler? I've yet to verify myself.
+- My USB-C Cable is hot or has melted down!  
    It wasn’t rated for 100w. MUST use a cable that’s rated for 100w.
