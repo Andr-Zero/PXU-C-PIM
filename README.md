@@ -1,6 +1,8 @@
 # PXU USB-C Power Input Module (PIM)
 ## _Power your OG Xbox via a USB Charger!_
 
+This is based off the [SparkFun USB-C Power Delivery Board](https://github.com/sparkfun/Power_Delivery_Board-USB-C)
+
 ##### Disclaimer!
 - I'm not an Electrical Engineer. Just wanted to make something cool and challenge myself.
 - The OEM power supply can hold a potentially dangerous charge even after being unplugged for a large period of time!
@@ -22,6 +24,6 @@
 - I'm using a 100w charger but nothing is working.  
    The charger has to be able to negotiate with the PIM saying it can do 95w-100w at 20v, otherwise the PIM refuses to pass power to the PXU.
 - My USB charger is warm when running the console, is that normal?  
-   Depends on the charger, mine does and does with anything I use it with.
+   Depends on the charger, mine does and with anything I use it with.
 - My USB-C Cable melted down!  
    It wasn’t rated for 100w. MUST use a cable that’s rated for 100w.
