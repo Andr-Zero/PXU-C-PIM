@@ -15,6 +15,7 @@ This is based off the [SparkFun USB-C Power Delivery Board](https://github.com/s
 - Upload Arduino code for programming
 - Upload board and design files
 - Explain header, programming, and LEDs
+- Update License, assume same as Sparkfuns for now, attrubution specifically. 
 
 ##### FAQ
 - What chargers work?  
@@ -27,3 +28,6 @@ This is based off the [SparkFun USB-C Power Delivery Board](https://github.com/s
    Depends on the charger, mine does and with anything I use it with. Apperently the GaN chargers run cooler? I've yet to verify myself.
 - My USB-C Cable is hot or has melted down!  
    It wasn’t rated for 100w. MUST use a cable that’s rated for 100w.
+
+##### Known Issues
+-AC adapters that support PPS (Programgamable Power Supply) seems to have issues. 
