@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "C-PIM-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/C-PIM-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Q1")(type "KiCad")(uri "${KIPRJMOD}/Imports/STL9P3LLH6.kicad_sym")(options "")(descr ""))
+  (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/Imports/USB4215-03-A_REVA.kicad_sym")(options "")(descr ""))
+  (lib (name "HAG")(type "KiCad")(uri "${KIPRJMOD}/Imports/09484049.kicad_sym")(options "")(descr ""))
+)
